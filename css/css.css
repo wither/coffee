@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+/* ALL */
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* MAIN */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #767676;
+  line-height: 23px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* CLASSES & IDs */
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sect {
+  padding: 130px 0;
+}
+
+.col--inbl {
+  display: inline-block;
+  float: none;
+}
+
+.row--center {
+  text-align: center;
+}
+
+.row--small {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row--margin {
+  margin-top: 65px;
+}
+
+.face {
+  background-image: url('https://image.ibb.co/meT7Jb/header_bg_1.jpg');
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.face_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: table;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: banner-in 2s;
+}
+
+.face_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.face_scroll-down {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -12px;
+  cursor: pointer;
+  animation: opacity 3s;
+}
+
+.face_title {
+  font-size: 56px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  animation: opacity 3s;
+}
+
+.face_text {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 18px;
+  animation: opacity 3s;
+}
+
+.banner {
+  background-image: url('http://bestanimations.com/Food/Beverages/Coffee/coffee-animated-gif-19.gif');
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.banner_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: table;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: banner-in 2s;
+}
+
+.banner_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner_scroll-down {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -12px;
+  cursor: pointer;
+  animation: opacity 3s;
+}
+
+.banner_title {
+  font-size: 56px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  animation: opacity 3s;
+}
+
+.banner_text {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 18px;
+  animation: opacity 3s;
+}
+
+.sect--type {
+  background-image: url('https://image.ibb.co/nNCuib/coffee_item_10.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.sect__title {
+  margin-top: 0;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sect__subtitle {
+  margin-bottom: 0;
+}
